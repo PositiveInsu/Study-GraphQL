@@ -1,0 +1,6 @@
+query {
+    taskMainList {
+        id
+        content
+    }
+}

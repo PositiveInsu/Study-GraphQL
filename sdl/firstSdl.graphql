@@ -1,0 +1,22 @@
+type User {
+    id: ID!
+    createdAt: String!
+    username: String!
+    name: String!
+}
+
+type Task {
+    id: ID!
+    createdAt: String!
+    content: String!
+}
+
+type Approach {
+    id: ID!
+    createdAt: String!
+    content: String!
+}
+
+type Query {
+    taskMainList: [Task!]
+}
